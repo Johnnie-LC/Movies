@@ -2,7 +2,14 @@
   list-style: none;
   font-size: 1.5rem;
   text-align: center;
+  transition: all 500ms ease-in-out;
 }
+.movieCard:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+}
+
 .movieImage {
   border-radius: 10px;
   background-color: azure;
