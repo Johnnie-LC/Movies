@@ -6,7 +6,7 @@ export const MovieCard = ({ movie }) => {
   const imageUrl = getMoviesImg(movie.poster_path, 300)
   return (
     <li className={styles.movieCard}>
-      <Link to={`/movie/${movie.id}`}>
+      <Link to={`/Movies/movie/${movie.id}`}>
         <img
           height={345}
           width={230}

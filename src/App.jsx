@@ -8,16 +8,20 @@ export const App = () => {
     <>
       <Router>
         <header>
-          <Link to="/">
+          <Link to={`/Movies/`}>
             <h1 className={styles.title}>Movies</h1>
           </Link>
         </header>
         <main>
           <Switch>
-            <Route exact path="/">
+            <Route exact path={`/Movies/`}>
               <LandingPage />
             </Route>
-            <Route exact path={`/movie/:movieId`} component={MovieDetails} />
+            <Route
+              exact
+              path={`/Movies/movie/:movieId`}
+              component={MovieDetails}
+            />
             <Route>404</Route>
           </Switch>
         </main>

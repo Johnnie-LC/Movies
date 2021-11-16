@@ -24,7 +24,7 @@ export const Search = () => {
           aria-label="Search Movies"
           onChange={(e) => {
             const value = e.target.value
-            history.push(`/?search=${value}`)
+            history.push(`/Movies/?search=${value}`)
           }}
         />
         <button className={styles.searchButton} type="submit">
