@@ -8,11 +8,20 @@
   position: relative;
 }
 .searchInput {
+  font-size: 1.2rem;
   height: 35px;
   border-radius: 20px;
   padding: 5px 30px 5px 30px;
   outline: none;
   font-size: 1rem;
+  background: none;
+  border: 2px solid rgb(90, 87, 87);
+  color: white;
+}
+.searchInput:focus {
+  outline: none;
+  border: 2px solid #f88ec2;
+  box-shadow: 0 0 5px #ebbed4;
 }
 
 .searchButton {
