@@ -1,6 +1,6 @@
 # Movies themoviedb
 
-Application made with React that shows the most current Movies on the market using the api [themoviedb](https://developers.themoviedb.org/4/getting-started)
+Application made with create-react-app that shows the most current Movies on the market using the api [themoviedb](https://developers.themoviedb.org/4/getting-started)
 
 # Technologies used
 
